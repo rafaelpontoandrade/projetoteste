@@ -1,0 +1,62 @@
+Estudo de Python
+
+Funções para converter dados
+
+int()
+str()
+float()
+list()
+tuple()
+dict()
+
+Operador ternario em Python OU Expressão condicional
+
+<expressao1> if <condicao> else <expressao2>
+
+Ex:
+
+print('Maior de idade') if idade >= 18 else print('Menor de idade')
+
+No Python tem uma palavra reservada chamada "pass"
+Que avisa para o interpretador ignorar aquela funcao provisóriamente. 
+Eu uso quando eu tenho uma funcao que vai fazer algo, mas ainda não pensei exatamente como ela vai funcionar.
+Por exemplo:
+
+n = 10
+
+if n > 10:
+    pass
+
+print('Hello')
+
+Como nas outras linguagens, o break para o laço pai dele;
+O continue, ignora alguma condicão e segue o barco, por exemplo:
+
+for numero in range(100):
+    if numero % 2 == 0:
+        print (numero)
+    else:
+        continue
+
+Aqui se o número é par eu continuo, se for impar, ignora e continua.
+Obviamente aqui, nesse exemplo específico, eu poderia simplesmente não ter feito o else.
+
+#Tuplas são listas imutáveis
+#Para criar uma tupla, basta ao invés de usar  []  para setar o valor, usar ()
+
+valores = (1,2,3,4)
+print(valores)
+
+#dessa forma eu não consigo modificar os valores
+
+
+[] = listas simplesmente
+() = Tuplas
+{} =  uso para dicionários ou para criação de sets
+
+
+Exemplo":
+
+numeros = [1,2,3]: Aqui você está criando uma lista. Listas são coleções ordenadas e mutáveis que podem conter elementos duplicados. Você pode acessar, adicionar ou remover elementos usando índices.
+
+numeros = {1,2,3}: Nesse caso, você está criando um conjunto (set). Conjuntos são coleções não ordenadas e não indexadas. Eles são úteis quando você precisa de uma coleção que não permita elementos duplicados e a ordem dos elementos não é importante. Conjuntos também oferecem operações matemáticas de conjuntos, como união, interseção, diferença, etc.
