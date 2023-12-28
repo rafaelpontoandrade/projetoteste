@@ -10,7 +10,7 @@ def bemvindo(nome):
 
 bemvindo('Rafael')
 
-print('------------------')
+print('-------------------')
 
 # Posso definir um valor padrão para o argumento
 # Se eu quiser usar o valor padrão, basta não passar nenhum argumento na chamada da função.
